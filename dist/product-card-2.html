@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+	<title>Natural with love</title>
+
+	<!-- FONTS -->
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+
+	<!-- STYLES -->
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<div class="site-header">
+
+		<div class="container">
+			<div class="header-row">
+				<div class="hamburger">
+					<img src="images/burger_menu.svg" alt="Hamburger">
+				</div>
+				<a href="/" class="header-logo">
+					<img src="images/logo.svg" alt="Natural with love">
+				</a>
+				<a href="shopping-cart.html" class="header-cart">
+					<img src="images/cart.svg" alt="Корзина">
+					<div class="header-cart__value">1</div>
+				</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="menu-wrap">
+		<div class="menu-header">
+			<div class="menu-header__row">
+				<a href="#" class="menu-logo">
+					<img src="images/logo.svg" alt="Natural with love">
+				</a>
+				<div class="menu-close">
+					<img src="images/times.svg" alt="Times">
+				</div>
+			</div>
+		</div>
+
+		<div class="menu-body">
+
+				<ul class="menu-nav">
+					<li><a href="product-card.html">Ароматичні свічки</a></li>
+					<li class="is-active"><a href="product-card-2.html">Формові свічки</a></li>
+					<li><a href="product-card.html">Подарункові свічки</a></li>
+					<li><a href="#">Limited Edition</a></li>
+					<li><a href="#">Оптові та корпоративні замовлення</a></li>
+				</ul>
+
+				<div class="menu-contacts">
+
+					<div class="menu-contacts__title">Контакти</div>
+
+					<div class="menu-contacts__item">
+						<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M8.92336 9.56572C7.83763 10.6515 5.05712 9.63127 2.71293 7.28707C0.368736 4.94288 -0.65145 2.16237 0.434279 1.07664L1.14915 0.361768C1.64267 -0.131747 2.45586 -0.118701 2.96546 0.390906L4.07274 1.49818C4.58234 2.00779 4.59539 2.82098 4.10187 3.31449L3.94833 3.46804C3.68187 3.73449 3.6558 4.16434 3.90339 4.46437C4.1422 4.75377 4.39967 5.04203 4.67882 5.32118C4.95797 5.60033 5.24623 5.8578 5.53563 6.09661C5.83566 6.3442 6.26551 6.31813 6.53196 6.05167L6.68551 5.89813C7.17902 5.40461 7.99221 5.41766 8.50182 5.92726L9.60909 7.03454C10.1187 7.54414 10.1317 8.35734 9.63823 8.85085L8.92336 9.56572Z"
+								fill="#956A4E" />
+						</svg>
+						<span>+38 (095) 232 43 23</span>
+					</div>
+
+					<div class="menu-contacts__item">
+						<svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M0 2.67442C0 1.19738 1.19738 0 2.67442 0H7.32558C8.80262 0 10 1.19738 10 2.67442V5.46512C10 6.94216 8.80262 8.13953 7.32558 8.13953H2.67442C1.19738 8.13953 0 6.94216 0 5.46512V2.67442ZM2.4493 2.35447C2.27257 2.22193 2.02185 2.25774 1.8893 2.43447C1.75675 2.6112 1.79257 2.86192 1.9693 2.99447L3.56 4.1875C4.41333 4.8275 5.58666 4.8275 6.44 4.1875L8.03069 2.99447C8.20743 2.86192 8.24324 2.6112 8.11069 2.43447C7.97815 2.25774 7.72742 2.22193 7.55069 2.35447L5.96 3.5475C5.39111 3.97416 4.60888 3.97416 4.04 3.5475L2.4493 2.35447Z"
+								fill="#956A4E" />
+						</svg>
+						<span>naturalwlove@gmail.com</span>
+					</div>
+
+					<div class="menu-social">
+						<a href="#">
+							<svg width="15" height="14" viewBox="0 0 10 9" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M0.613083 3.69558C0.613083 3.69558 5.03584 1.83279 6.56973 1.17686C7.15774 0.914507 9.15181 0.0749076 9.15181 0.0749076C9.15181 0.0749076 10.0722 -0.292385 9.99546 0.599648C9.96988 0.966978 9.76537 2.25256 9.56086 3.64311C9.25406 5.61088 8.92172 7.76228 8.92172 7.76228C8.92172 7.76228 8.87059 8.36574 8.43599 8.47068C8.00139 8.57562 7.28554 8.10339 7.15774 7.99841C7.05545 7.91973 5.24035 6.73905 4.57566 6.16184C4.3967 6.00443 4.19219 5.68961 4.60121 5.32228C5.52157 4.45646 6.62086 3.38076 7.28554 2.69861C7.59234 2.38375 7.8991 1.64913 6.62086 2.54116C4.80575 3.82678 3.0162 5.03367 3.0162 5.03367C3.0162 5.03367 2.60715 5.29602 1.8402 5.05989C1.07323 4.82379 0.178449 4.50893 0.178449 4.50893C0.178449 4.50893 -0.435076 4.11538 0.613083 3.69558Z"
+									fill="#E19262" />
+							</svg>
+							<span>Telegram</span>
+						</a>
+						<a href="#">
+							<svg width="18" height="16" viewBox="0 0 10 11" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M3.33373 5.00164C3.33373 4.0809 4.07972 3.3343 5.0002 3.3343C5.92068 3.3343 6.66707 4.0809 6.66707 5.00164C6.66707 5.92239 5.92068 6.66899 5.0002 6.66899C4.07972 6.66899 3.33373 5.92239 3.33373 5.00164ZM2.43266 5.00164C2.43266 6.42011 3.58214 7.56993 5.0002 7.56993C6.41826 7.56993 7.56774 6.42011 7.56774 5.00164C7.56774 3.58318 6.41826 2.43336 5.0002 2.43336C3.58214 2.43336 2.43266 3.58318 2.43266 5.00164ZM7.06936 2.33153C7.06932 2.45023 7.10446 2.56629 7.17035 2.66502C7.23624 2.76375 7.32992 2.84071 7.43955 2.88618C7.54917 2.93166 7.66981 2.94359 7.78621 2.92048C7.90261 2.89737 8.00955 2.84025 8.0935 2.75634C8.17745 2.67243 8.23464 2.56551 8.25784 2.44909C8.28103 2.33268 8.2692 2.21199 8.22383 2.1023C8.17846 1.99261 8.10159 1.89884 8.00294 1.83285C7.9043 1.76686 7.7883 1.73162 7.66963 1.73157H7.66939C7.51032 1.73164 7.35778 1.79487 7.24527 1.90736C7.13277 2.01985 7.0695 2.17241 7.06936 2.33153ZM2.98012 9.07286C2.49262 9.05065 2.22765 8.96943 2.05156 8.90081C1.81811 8.8099 1.65155 8.70162 1.47642 8.52668C1.30129 8.35174 1.19289 8.18529 1.1024 7.95177C1.03376 7.77572 0.952558 7.51059 0.930397 7.02295C0.906156 6.49574 0.901316 6.33736 0.901316 5.00168C0.901316 3.66601 0.906556 3.50807 0.930397 2.98042C0.952598 2.49278 1.0344 2.22817 1.1024 2.05159C1.19329 1.81808 1.30153 1.65146 1.47642 1.47629C1.65131 1.30111 1.81771 1.19267 2.05156 1.10216C2.22757 1.0335 2.49262 0.952273 2.98012 0.930106C3.50718 0.905858 3.66551 0.901016 5.0002 0.901016C6.33489 0.901016 6.49338 0.906258 7.02088 0.930106C7.50838 0.952313 7.77291 1.03414 7.94944 1.10216C8.18289 1.19267 8.34945 1.30135 8.52458 1.47629C8.69971 1.65122 8.80771 1.81808 8.8986 2.05159C8.96724 2.22765 9.04844 2.49278 9.0706 2.98042C9.09484 3.50807 9.09968 3.66601 9.09968 5.00168C9.09968 6.33736 9.09484 6.4953 9.0706 7.02295C9.0484 7.51059 8.9668 7.77564 8.8986 7.95177C8.80771 8.18529 8.69947 8.3519 8.52458 8.52668C8.3497 8.70146 8.18289 8.8099 7.94944 8.90081C7.77343 8.96947 7.50838 9.05069 7.02088 9.07286C6.49382 9.09711 6.33549 9.10195 5.0002 9.10195C3.66491 9.10195 3.50702 9.09711 2.98012 9.07286ZM2.93872 0.03029C2.40642 0.0545379 2.04268 0.138966 1.72503 0.262606C1.39606 0.390288 1.11756 0.561585 0.839274 0.839516C0.560982 1.11745 0.390176 1.39646 0.262531 1.72553C0.138926 2.04347 0.0545222 2.40711 0.0302812 2.93957C0.00564023 3.47286 0 3.64336 0 5.00164C0 6.35993 0.00564023 6.53043 0.0302812 7.06372C0.0545222 7.59622 0.138926 7.95982 0.262531 8.27776C0.390176 8.60663 0.561023 8.88596 0.839274 9.16377C1.11752 9.44158 1.39606 9.61264 1.72503 9.74068C2.04328 9.86432 2.40642 9.94875 2.93872 9.973C3.47214 9.99725 3.64231 10.0033 5.0002 10.0033C6.35809 10.0033 6.52854 9.99765 7.06168 9.973C7.59402 9.94875 7.95752 9.86432 8.27537 9.74068C8.60415 9.61264 8.88284 9.4417 9.16113 9.16377C9.43942 8.88584 9.60987 8.60663 9.73787 8.27776C9.86148 7.95982 9.94628 7.59618 9.97012 7.06372C9.99436 6.53003 10 6.35993 10 5.00164C10 3.64336 9.99436 3.47286 9.97012 2.93957C9.94588 2.40707 9.86148 2.04327 9.73787 1.72553C9.60987 1.39666 9.43898 1.11789 9.16113 0.839516C8.88328 0.561144 8.60415 0.390288 8.27577 0.262606C7.95752 0.138966 7.59398 0.0541378 7.06208 0.03029C6.52894 0.00604199 6.35849 0 5.0006 0C3.64271 0 3.47214 0.00564186 2.93872 0.03029Z"
+									fill="#E19262" />
+							</svg>
+							<span>Instagram</span>
+						</a>
+					</div>
+
+					<a href="#" class="menu-delivery__link">Доставка та оплата</a>
+
+					<div class="menu-pay__wrap">
+						<div class="menu-pay-item"><img src="images/google-pay.jpg" alt="Google pay"></div>
+						<div class="menu-pay-item"><img src="images/apple-pay.jpg" alt="Apple pay"></div>
+						<div class="menu-pay-item"><img src="images/visa.jpg" alt="Visa"></div>
+						<div class="menu-pay-item"><img src="images/mastercard.jpg" alt="Mastercard"></div>
+					</div>
+
+				</div>
+
+		</div>
+	</div>
+
+<main class="site-main">
+
+	<div class="s-productcard">
+		<div class="container">
+
+			<a href="/" class="back-link">
+				<img src="images/back-arrow.svg" alt="Повернутись назад">
+				<span>Повернутись назад</span>
+			</a>
+
+			<div class="swiper productcard-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="images/product-card-1.jpg" data-fancybox="gallery"><img src="images/product-card-1.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="images/product-card-2.jpg" data-fancybox="gallery"><img src="images/product-card-2.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="images/product-card-3.jpg" data-fancybox="gallery"><img src="images/product-card-3.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="images/product-card-4.jpg" data-fancybox="gallery"><img src="images/product-card-4.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="images/product-card-5.jpg" data-fancybox="gallery"><img src="images/product-card-5.jpg"></a>
+					</div>
+				</div>
+			</div>
+
+			<div thumbsSlider="" class="swiper productcard-swiper__thumbs">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="images/product-card-1.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="images/product-card-2.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="images/product-card-3.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="images/product-card-4.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="images/product-card-5.jpg">
+					</div>
+				</div>
+			</div>
+
+			<div class="productcard-info__wrap">
+
+				<div class="productcard-name">Fresh Linen</div>
+				<div class="productcard-descr">FRESH LINEN - свічка з ароматом чистоти, свіжої білизни та квітів. </div>
+
+				<div class="productcard-price__wrap">
+					<div class="productcard-price__item">
+						400 <span>грн</span>
+					</div>
+					<div class="productcard-count counter-js">
+						<span class="productcard-count__plus counter-plus"><img src="images/plus.svg" alt="plus"></span>
+						<input type="number" value="1">
+						<span class="productcard-count__minus counter-minus"><img src="images/minus.svg" alt="minus"></span>
+					</div>
+				</div>
+
+				<a href="#" class="addcart">
+					<div class="addcart-left">
+						<img src="images/addcart.svg" alt="Addcart">
+						<span>Додати у кошик</spa>
+					</div>
+					<span class="addcart-price">400 ₴</span>
+				</a>
+
+				<div class="productcard-char">
+
+					<div class="productcard-char__wrap">
+						<div class="productacrd-char__item">
+							<div class="productcard-char__text">
+								<span class="productcard-char__key">Верхні ноти:</span>
+								<span class="productcard-char__name">лимон</span>
+							</div>
+						</div>
+	
+						<div class="productacrd-char__item">
+							<div class="productcard-char__text">
+								<span class="productcard-char__key">Серце:</span>
+								<span class="productcard-char__name">озон, зелені квіти, льон</span>
+							</div>
+						</div>
+	
+						<div class="productacrd-char__item">
+							<div class="productcard-char__text">
+								<span class="productcard-char__key">Базові ноти:</span>
+								<span class="productcard-char__name">світлий мускус</span>
+							</div>
+						</div>
+					</div>
+					
+
+					<div class="productacrd-char__item">
+						<div class="productcard-char__text">
+							<span class="productcard-char__key">Обʼєм:</span>
+							<span class="productcard-char__name">200 мл, час горіння 35-40 годин</span>
+						</div>
+					</div>
+
+					<div class="productacrd-char__item">
+						<div class="productcard-char__text">
+							<span class="productcard-char__key">Склад:</span>
+							<span class="productcard-char__name">100% соєвий віск, сертифіковані ароматичні масла,хрумкий дерев’яний гніт</span>
+						</div>
+					</div>
+
+				</div>
+				
+
+				<div class="s-slider s-gift mt-40">
+					<div class="container position-relative">
+						<h2 class="def-title title-dec">Дивись також</h2>
+			
+						<div class="swiper product-swiper">
+			
+							<div class="swiper-wrapper">
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+								<div class="swiper-slide">
+									<div class="product-item">
+										<div class="product-header">
+											<a href="#" class="product-thumb">
+												<img src="images/product-1.jpg" alt="Product">
+											</a>
+											<a href="#" class="product-gocart">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+														stroke="#E19262" stroke-width="0.8" />
+													<path
+														d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+														stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+												</svg>
+											</a>
+										</div>
+			
+										<div class="product-body">
+											<a href="#" class="product-title">Fresh Linen</a>
+											<div class="product-cat">Бетонна свічка</div>
+											<div class="product-price">400 грн</div>
+										</div>
+									</div>
+								</div>
+			
+							</div>
+			
+							<div class="swiper-pagination product-pagination"></div>
+			
+							<div class="swiper-button-prev product-button-prev"></div>
+							<div class="swiper-button-next product-button-next"></div>
+			
+						</div>
+			
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+</main>
+<footer class="site-footer">
+	<div class="container">
+
+		<div class="footer-logo">
+			<a href="#"><img src="images/footer-logo.svg" alt="Natural with love"></a>
+		</div>
+
+		<div class="footer-nav">
+
+			<div class="footer-nav__item">
+				<div class="footer-nav__title">Інформація</div>
+				<ul>
+					<li><a href="#">Доставка та оплата</a></li>
+					<li><a href="#">Політика конфіденційності</a></li>
+					<li><a href="#">Корпоративні замовлення</a></li>
+					<li><a href="#">Договір оферти</a></li>
+					<li><a href="#">Про нас</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-nav__item">
+				<div class="footer-nav__title">Контакти</div>
+				<a href="#" class="footer-contact__item">
+					<span class="footer-contact__icon">
+						<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M8.92336 9.56572C7.83763 10.6515 5.05712 9.63127 2.71293 7.28707C0.368736 4.94288 -0.65145 2.16237 0.434279 1.07664L1.14915 0.361768C1.64267 -0.131747 2.45586 -0.118701 2.96546 0.390906L4.07274 1.49818C4.58234 2.00779 4.59539 2.82098 4.10187 3.31449L3.94833 3.46804C3.68187 3.73449 3.6558 4.16434 3.90339 4.46437C4.1422 4.75377 4.39967 5.04203 4.67882 5.32118C4.95797 5.60033 5.24623 5.8578 5.53563 6.09661C5.83566 6.3442 6.26551 6.31813 6.53196 6.05167L6.68551 5.89813C7.17902 5.40461 7.99221 5.41766 8.50182 5.92726L9.60909 7.03454C10.1187 7.54414 10.1317 8.35734 9.63823 8.85085L8.92336 9.56572Z" fill="#9D9D9D"/>
+						</svg>							
+					</span>
+					<span class="footer-contact__value">+38 (095) 232 43 23</span>
+				</a>
+
+				<a href="#" class="footer-contact__item">
+					<span class="footer-contact__icon">
+						<svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.67442C0 1.19738 1.19738 0 2.67442 0H7.32558C8.80262 0 10 1.19738 10 2.67442V5.46512C10 6.94216 8.80262 8.13953 7.32558 8.13953H2.67442C1.19738 8.13953 0 6.94216 0 5.46512V2.67442ZM2.4493 2.35447C2.27257 2.22193 2.02185 2.25774 1.8893 2.43447C1.75675 2.6112 1.79257 2.86192 1.9693 2.99447L3.56 4.1875C4.41333 4.8275 5.58666 4.8275 6.44 4.1875L8.03069 2.99447C8.20743 2.86192 8.24324 2.6112 8.11069 2.43447C7.97815 2.25774 7.72742 2.22193 7.55069 2.35447L5.96 3.5475C5.39111 3.97416 4.60888 3.97416 4.04 3.5475L2.4493 2.35447Z" fill="#9D9D9D"/>
+						</svg>							
+					</span>
+					<span class="footer-contact__value">naturalwlove@gmail.com</span>
+				</a>
+
+				<a href="#" class="footer-contact__item">
+					<span class="footer-contact__icon">
+						<svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0.613083 3.69558C0.613083 3.69558 5.03584 1.83279 6.56973 1.17686C7.15774 0.914507 9.15181 0.0749076 9.15181 0.0749076C9.15181 0.0749076 10.0722 -0.292385 9.99546 0.599648C9.96988 0.966978 9.76537 2.25256 9.56086 3.64311C9.25406 5.61088 8.92172 7.76228 8.92172 7.76228C8.92172 7.76228 8.87059 8.36574 8.43599 8.47068C8.00139 8.57562 7.28554 8.10339 7.15774 7.99841C7.05545 7.91973 5.24035 6.73905 4.57567 6.16184C4.3967 6.00443 4.19219 5.68961 4.60121 5.32228C5.52157 4.45646 6.62086 3.38076 7.28554 2.69861C7.59234 2.38375 7.8991 1.64913 6.62086 2.54116C4.80575 3.82678 3.0162 5.03367 3.0162 5.03367C3.0162 5.03367 2.60715 5.29602 1.8402 5.05989C1.07323 4.82379 0.178449 4.50893 0.178449 4.50893C0.178449 4.50893 -0.435076 4.11538 0.613083 3.69558Z" fill="#7D7D7D"/>
+						</svg>																		
+					</span>
+					<span class="footer-contact__value">Telegram</span>
+				</a>
+
+				<a href="#" class="footer-contact__item">
+					<span class="footer-contact__icon">
+						<svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M3.33373 5.00164C3.33373 4.0809 4.07972 3.3343 5.0002 3.3343C5.92068 3.3343 6.66707 4.0809 6.66707 5.00164C6.66707 5.92239 5.92068 6.66899 5.0002 6.66899C4.07972 6.66899 3.33373 5.92239 3.33373 5.00164ZM2.43266 5.00164C2.43266 6.42011 3.58214 7.56993 5.0002 7.56993C6.41826 7.56993 7.56774 6.42011 7.56774 5.00164C7.56774 3.58318 6.41826 2.43336 5.0002 2.43336C3.58214 2.43336 2.43266 3.58318 2.43266 5.00164ZM7.06936 2.33153C7.06932 2.45023 7.10446 2.56629 7.17035 2.66502C7.23624 2.76375 7.32992 2.84071 7.43955 2.88618C7.54917 2.93166 7.66981 2.94359 7.78621 2.92048C7.90261 2.89737 8.00955 2.84025 8.0935 2.75634C8.17745 2.67243 8.23464 2.56551 8.25784 2.44909C8.28103 2.33268 8.2692 2.21199 8.22383 2.1023C8.17846 1.99261 8.10159 1.89884 8.00294 1.83285C7.9043 1.76686 7.7883 1.73162 7.66963 1.73157H7.66939C7.51032 1.73164 7.35778 1.79487 7.24527 1.90736C7.13277 2.01985 7.0695 2.17241 7.06936 2.33153ZM2.98012 9.07286C2.49262 9.05065 2.22765 8.96943 2.05156 8.90081C1.81811 8.8099 1.65155 8.70162 1.47642 8.52668C1.30129 8.35174 1.19289 8.18529 1.1024 7.95177C1.03376 7.77572 0.952558 7.51059 0.930397 7.02295C0.906156 6.49574 0.901316 6.33736 0.901316 5.00168C0.901316 3.66601 0.906556 3.50807 0.930397 2.98042C0.952598 2.49278 1.0344 2.22817 1.1024 2.05159C1.19329 1.81808 1.30153 1.65146 1.47642 1.47629C1.65131 1.30111 1.81771 1.19267 2.05156 1.10216C2.22757 1.0335 2.49262 0.952273 2.98012 0.930106C3.50718 0.905858 3.66551 0.901016 5.0002 0.901016C6.33489 0.901016 6.49338 0.906258 7.02088 0.930106C7.50838 0.952313 7.77291 1.03414 7.94944 1.10216C8.18289 1.19267 8.34945 1.30135 8.52458 1.47629C8.69971 1.65122 8.80771 1.81808 8.8986 2.05159C8.96724 2.22765 9.04844 2.49278 9.0706 2.98042C9.09484 3.50807 9.09968 3.66601 9.09968 5.00168C9.09968 6.33736 9.09484 6.4953 9.0706 7.02295C9.0484 7.51059 8.9668 7.77564 8.8986 7.95177C8.80771 8.18529 8.69947 8.3519 8.52458 8.52668C8.3497 8.70146 8.18289 8.8099 7.94944 8.90081C7.77343 8.96947 7.50838 9.05069 7.02088 9.07286C6.49382 9.09711 6.33549 9.10195 5.0002 9.10195C3.66491 9.10195 3.50702 9.09711 2.98012 9.07286ZM2.93872 0.03029C2.40642 0.0545379 2.04268 0.138966 1.72503 0.262606C1.39606 0.390288 1.11756 0.561585 0.839274 0.839516C0.560982 1.11745 0.390176 1.39646 0.262531 1.72553C0.138926 2.04347 0.0545222 2.40711 0.0302812 2.93957C0.00564023 3.47286 0 3.64336 0 5.00164C0 6.35993 0.00564023 6.53043 0.0302812 7.06372C0.0545222 7.59622 0.138926 7.95982 0.262531 8.27776C0.390176 8.60663 0.561023 8.88596 0.839274 9.16377C1.11752 9.44158 1.39606 9.61264 1.72503 9.74068C2.04328 9.86432 2.40642 9.94875 2.93872 9.973C3.47214 9.99725 3.64231 10.0033 5.0002 10.0033C6.35809 10.0033 6.52854 9.99765 7.06168 9.973C7.59402 9.94875 7.95752 9.86432 8.27537 9.74068C8.60415 9.61264 8.88284 9.4417 9.16113 9.16377C9.43942 8.88584 9.60987 8.60663 9.73787 8.27776C9.86148 7.95982 9.94628 7.59618 9.97012 7.06372C9.99436 6.53003 10 6.35993 10 5.00164C10 3.64336 9.99436 3.47286 9.97012 2.93957C9.94588 2.40707 9.86148 2.04327 9.73787 1.72553C9.60987 1.39666 9.43898 1.11789 9.16113 0.839516C8.88328 0.561144 8.60415 0.390288 8.27577 0.262606C7.95752 0.138966 7.59398 0.0541378 7.06208 0.03029C6.52894 0.00604199 6.35849 0 5.0006 0C3.64271 0 3.47214 0.00564186 2.93872 0.03029Z" fill="#9D9D9D"/>
+						</svg>
+					</span>
+					<span class="footer-contact__value">Instagram</span>
+				</a>
+			</div>
+
+		</div>
+
+		<div class="footer-pay__wrap">
+			<div class="footer-pay__item"><img src="images/google-pay.jpg" alt="Google pay"></div>
+			<div class="footer-pay__item"><img src="images/apple-pay.jpg" alt="Apple pay"></div>
+			<div class="footer-pay__item"><img src="images/visa.jpg" alt="Visa"></div>
+			<div class="footer-pay__item"><img src="images/mastercard.jpg" alt="Mastercard"></div>
+		</div>
+
+		<div class="footer-copyright">
+			TM Natural with love. Сopyright © 2022
+		</div>
+
+	</div>
+</footer>
+
+<script src="js/app.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

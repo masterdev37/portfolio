@@ -1,0 +1,66 @@
+<!--#include virtual="/parts/header.html" -->
+
+<main class="site-main">
+
+	<div class="s-corporate">
+		<div class="container">
+
+			<a href="/" class="back-link">
+				<img src="images/back-arrow.svg" alt="Повернутись назад">
+				<span>Повернутись назад</span>
+			</a>
+
+			<div class="ordering-wrap">
+
+				<div class="ordering-label ordering-delivery__title">
+					Доставка в: <a href="#">Ваше місто</a>
+				</div>
+
+				<form>
+					<div class="delivery-method">
+						<div class="ordering-label">Спосіб доставки</div>
+						<div class="radio-item">
+							<input type="radio" name="delivery-method" id="ordering-pickup">
+							<label for="ordering-pickup">Самовивіз</label>
+						</div>
+						<div class="radio-item">
+							<input type="radio" name="delivery-method" id="ordering-mail">
+							<label for="ordering-mail">до відділення Нової Пошти</label>
+						</div>
+						<div class="radio-item">
+							<input type="radio" name="delivery-method" id="ordering-courier">
+							<label for="ordering-courier">Кур'єрська доставка на адресу</label>
+						</div>
+					</div>
+
+					<div class="input-item">
+						<label for="ordering-new-mail">Оберіть відділення Нової Пошти</label>
+						<input type="text" placeholder="Вкажіть відділення" id="ordering-new-mail">
+					</div>
+
+					<div class="input-item">
+						<label for="ordering-comment">Комментарій</label>
+						<textarea id="ordering-comment" cols="30" rows="3" placeholder="Введіть текст"></textarea>
+					</div>
+
+					<div class="input-item">
+						<label for="ordering-promocode">Промокод</label>
+						<input type="text" class="promocode-mask" placeholder="XXX-XXX-XXX" id="ordering-promocode">
+					</div>
+
+					<div class="ordering-total">До сплати: 800 ₴</div>
+
+					<button>Оплатити</button>
+				</form>
+
+				
+				
+
+			</div>
+
+
+		</div>
+	</div>
+
+</main>
+<!--#include virtual="/parts/footer-2.html" -->
