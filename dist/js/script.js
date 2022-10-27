@@ -8,6 +8,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	$('.menu-close').on('click', function() {
 		menuWrap.removeClass('is-active');
 	});
+	jQuery(function($){
+		$(document).mouseup( function(e){
+			if ( !menuWrap.is(e.target) && menuWrap.has(e.target).length === 0 ) { 
+				menuWrap.removeClass('is-active');
+			}
+		});
+	});
 	// Menu END
 
 	// Product Swiper START
@@ -82,6 +89,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		});
 		// Product card Swiper END
 
+		var productPrice = Number($('.productcard-price__item .price-num').text());
+		var addcartPrice = Number($('.addcart .addcart-price span').text());
+		
+		
+		$('.productcard-count input').on('keyup input change', function() {
+			var productcardCount = Number($(this).val());
+			var total = parseInt(productPrice * productcardCount);
+			$('.productcard-price__item .price-num').text(total);
+			$('.addcart .addcart-price span').text(total)
+		});
+
 		$('input[type="tel"]').inputmask("+38(999) 999-99-99");
 		$('.promocode-mask').inputmask("999-999-999");
 
@@ -91,6 +109,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			var card = $(this).parents('.shopping-cart__item');
 			card.remove();
 		});
+
+		
+		var $numObj = $('.shopping-cart-count input');
+		var price = 400;
+		var $priceFileld = $('.shopping-cart__total .total-num');
+		var productLength = $('.shopping-cart-price__item .price-num').length;
+		var pricePlus = parseInt($('.shopping-cart-price__item .price-num').data('price') * productLength);
+
+		$priceFileld.text(pricePlus);
+
+		$numObj.on('input change keyup', function() {
+			$priceFileld.text(parseInt($numObj.val()) * price);
+		});
+
+
+		
+		
 		// Shopping cart END
 
 		/* START Scroll functions */
