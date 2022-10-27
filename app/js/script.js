@@ -2,18 +2,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 	// Menu START
 	var menuWrap = $('.menu-wrap');
+	var menuOverlay = $('.menu-overlay');
 	$('.hamburger').on('click', function() {
 		menuWrap.addClass('is-active');
+		menuOverlay.fadeIn('slow');
 	});
 	$('.menu-close').on('click', function() {
 		menuWrap.removeClass('is-active');
+		menuOverlay.fadeOut('slow');
 	});
-	jQuery(function($){
-		$(document).mouseup( function(e){
-			if ( !menuWrap.is(e.target) && menuWrap.has(e.target).length === 0 ) { 
-				menuWrap.removeClass('is-active');
-			}
-		});
+	$(document).mouseup( function(e){
+		if ( !menuWrap.is(e.target) && menuWrap.has(e.target).length === 0 ) { 
+			menuWrap.removeClass('is-active');
+			menuOverlay.fadeOut('slow');
+		}
 	});
 	// Menu END
 
@@ -109,10 +111,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
 		// Shopping cart START
-		
-
-		
-
 		var shPriceTotal = $('.shopping-cart__total .total-num');
 		function priceSum() {
 			var pricePlus = $('.shopping-cart-price__item .price-num').toArray().reduce((summ, current) => +current.innerText + summ, 0);
@@ -120,12 +118,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		}
 		priceSum();
 		
-		
 
 		// Shopping cart Counter START
 		$('body').on('keyup input change click', '.shopping-cart-count input', function() {
 			var shCartCount = Number($(this).val());
 			var shCartPrice = Number($(this).parents('.shopping-cart-price__wrap').find('.price-num').data('price'));
+			
 			var shTotal = parseInt(shCartCount * shCartPrice);
 			$(this).parents('.shopping-cart-price__wrap').find('.price-num').text(shTotal);
 			priceSum();
@@ -137,20 +135,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			priceSum();
 		});
 		
-
+		
 		// Shopping cart Counter END
 		
 		// Shopping cart END
 
 		/* START Scroll functions */
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 100) {
-				$('.site-header').addClass('is-active');
-			} else {
-				$('.site-header').removeClass('is-active');
-			}
-		});
-
 		$('.anchor-link').on('click', function () {
 			$('html').animate({
 				scrollTop: $($(this).attr("href")).offset().top - 80

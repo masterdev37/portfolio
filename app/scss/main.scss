@@ -4,7 +4,7 @@
 // Header START
 .site-header {
 	border-bottom: 1px solid rgba(#A87353, .3);
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -13,12 +13,7 @@
 	background: #FFFFFF;
 	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
 }
-.site-header.is-active {
-	position: fixed;
-	.header-row {
-		padding: 5px 0;
-	}
-}
+
 .header-logo {
 	img {
 		max-width: 94px;
@@ -64,6 +59,17 @@
 	}
 }
 
+.menu-overlay {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba($color-dark, .5);
+	z-index: 13;
+	display: none;
+}
 .menu-wrap {
 	position: fixed;
 	top: 0;
@@ -72,18 +78,20 @@
 	background-color: #FFF5F0;
 	padding-bottom: 25px;
 	overflow-y: auto;
-	z-index: 13;
+	z-index: 14;
 	max-width: 250px;
 	height: 100%;
 	transition: 0.5s ease;
 	transform: translateX(-100%);
 	opacity: 0;
 	visibility: hidden;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
 }
 .menu-wrap.is-active {
 	transform: none;
 	opacity: 1;
 	visibility: visible;
+	
 }
 .menu-header {
 	background-color: #fff;
@@ -94,7 +102,7 @@
 .menu-header__row {
 	max-width: 405px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 12px 20px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -250,7 +258,7 @@
 // Banner END
 
 .site-main {
-	padding-top: 70px;
+	padding-top: 80px;
 }
 
 

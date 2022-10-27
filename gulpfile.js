@@ -28,7 +28,6 @@ function scripts() {
 		'app/js/swiper-bundle.min.js',
 		'app/js/fancybox.umd.js',
 		'app/js/jquery.inputmask.min.js',
-		'app/js/jQuery.SimpleCart.js',
 	])
 	.pipe(concat('app.min.js'))
 	.pipe(uglify())
