@@ -604,9 +604,6 @@
 	font-weight: 600;
 	margin-bottom: 12px;
 }
-.productcard-price__wrap {
-	display: flex;
-}
 .productcard-descr {
 	font-size: 14px;
 	max-width: 220px;
@@ -614,6 +611,8 @@
 	margin-bottom: 30px;
 }
 .productcard-price__wrap {
+	position: relative;
+	display: flex;
 	margin-bottom: 30px;
 }
 .productcard-price__item {
@@ -631,7 +630,8 @@
 .productcard-count {
 	display: flex;
 	align-items: center;
-
+	position: absolute;
+	left: 115px;
 	input::-webkit-outer-spin-button,
 	input::-webkit-inner-spin-button {
 		-webkit-appearance: none;
