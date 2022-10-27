@@ -89,6 +89,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		});
 		// Product card Swiper END
 
+		// Product card Counter START
 		var productPrice = Number($('.productcard-price__item .price-num').text());
 		var addcartPrice = Number($('.addcart .addcart-price span').text());
 		
@@ -99,32 +100,45 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			$('.productcard-price__item .price-num').text(total);
 			$('.addcart .addcart-price span').text(total)
 		});
+		// Product card Counter END
+
+		
 
 		$('input[type="tel"]').inputmask("+38(999) 999-99-99");
 		$('.promocode-mask').inputmask("999-999-999");
 
 
 		// Shopping cart START
+		
+
+		
+
+		var shPriceTotal = $('.shopping-cart__total .total-num');
+		function priceSum() {
+			var pricePlus = $('.shopping-cart-price__item .price-num').toArray().reduce((summ, current) => +current.innerText + summ, 0);
+			shPriceTotal.text(pricePlus);
+		}
+		priceSum();
+		
+		
+
+		// Shopping cart Counter START
+		$('body').on('keyup input change click', '.shopping-cart-count input', function() {
+			var shCartCount = Number($(this).val());
+			var shCartPrice = Number($(this).parents('.shopping-cart-price__wrap').find('.price-num').data('price'));
+			var shTotal = parseInt(shCartCount * shCartPrice);
+			$(this).parents('.shopping-cart-price__wrap').find('.price-num').text(shTotal);
+			priceSum();
+		});
+
 		$('body').on('click', '.shopping-cart__delete', function() {
 			var card = $(this).parents('.shopping-cart__item');
 			card.remove();
+			priceSum();
 		});
-
 		
-		var $numObj = $('.shopping-cart-count input');
-		var price = 400;
-		var $priceFileld = $('.shopping-cart__total .total-num');
-		var productLength = $('.shopping-cart-price__item .price-num').length;
-		var pricePlus = parseInt($('.shopping-cart-price__item .price-num').data('price') * productLength);
 
-		$priceFileld.text(pricePlus);
-
-		$numObj.on('input change keyup', function() {
-			$priceFileld.text(parseInt($numObj.val()) * price);
-		});
-
-
-		
+		// Shopping cart Counter END
 		
 		// Shopping cart END
 
