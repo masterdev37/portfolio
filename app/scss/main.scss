@@ -163,8 +163,8 @@
 	margin-bottom: 15px;
 }
 .menu-contacts__item {
-	font-size: 16px;
-	margin-bottom: 5px;
+	font-size: 14px;
+	margin-bottom: 8px;
 	color: #956A4E;
 	svg {
 		margin-right: 6px;
@@ -179,6 +179,7 @@
 		margin-right: 15px;
 		display: flex;
 		align-items: center;
+		font-size: 14px;
 		svg,
 		img {
 			margin-right: 6px;
@@ -189,7 +190,8 @@
 }
 .menu-delivery__link {
 	text-decoration: underline;
-	color: $color-accent;
+	color: $color-green;
+	font-size: 14px;
 }
 .menu-pay__wrap {
 	display: flex;
@@ -197,7 +199,7 @@
 	margin-top: 20px;
 	img {
 		border-radius: 5px;
-		max-width: 50px;
+		max-width: 46px;
 	}
 }
 // Header END
@@ -206,9 +208,9 @@
 .s-banner {
 	padding-top: 70px;
 	background-repeat: no-repeat;
-	background-size: 375px;
+	background-size: 420px;
 	background-position: center bottom;
-	padding-bottom: 250px;
+	padding-bottom: 305px;
 	margin-bottom: 50px;
 }
 .banner-descr {
@@ -247,11 +249,11 @@
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-position: top left;
-		width: 164px;
-		height: 296px;
+		width: 304px;
+		height: 424px;
 		position: absolute;
-		top: 50px;
-		left: 0;
+		top: 0;
+		left: -80px;
 		z-index: -1;
 	}
 }
