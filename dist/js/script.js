@@ -115,12 +115,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		function priceSum() {
 			var pricePlus = $('.shopping-cart-price__item .price-num').toArray().reduce((summ, current) => +current.innerText + summ, 0);
 			shPriceTotal.text(pricePlus);
-			
-			var priceInput = $('.shopping-cart-count input').val();
-		
-			
-			console.log(priceInput);
-
 		}
 		priceSum();
 		
