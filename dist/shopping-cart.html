@@ -32,7 +32,7 @@
 				<a href="index.html" class="header-logo">
 					<img src="images/logo.svg" alt="Natural with love">
 				</a>
-				<a href="shopping-cart.html" class="header-cart">
+				<a href="#" class="header-cart cart-js">
 					<img src="images/cart.svg" alt="Корзина">
 					<div class="header-cart__value">1</div>
 				</a>
@@ -44,7 +44,7 @@
 	<div class="menu-wrap">
 		<div class="menu-header">
 			<div class="menu-header__row">
-				<a href="#" class="menu-logo">
+				<a href="index.html" class="menu-logo">
 					<img src="images/logo.svg" alt="Natural with love">
 				</a>
 				<div class="menu-close">
@@ -60,7 +60,7 @@
 					<li class="is-active"><a href="product-card-2.html">Формові свічки</a></li>
 					<li><a href="product-card.html">Подарункові свічки</a></li>
 					<li><a href="#">Limited Edition</a></li>
-					<li><a href="#">Оптові та корпоративні замовлення</a></li>
+					<li class="menu-nav__corporate"><a href="corporate-orders.html">Оптові та корпоративні замовлення</a></li>
 				</ul>
 
 				<div class="menu-contacts">
@@ -119,12 +119,175 @@
 
 		</div>
 	</div>
+	
 
 	<div class="menu-overlay"></div>
 
+
+
+	<div class="s-shopping-cart shopping-cart__nav">
+
+			<a href="#" class="next-link">
+				<span>Закрити</span>
+				<img src="images/next-arrow.svg" alt="Повернутись назад">
+			</a>
+
+			<div class="shopping-cart__wrap">
+
+				<div class="shopping-cart__item">
+					<div class="shopping-cart__left">
+						<div class="shopping-cart__thumb">
+							<img src="images/product-card-1.jpg" alt="product">
+						</div>
+						<div class="shopping-cart__info">
+							<div class="shopping-cart__title">Fresh Linen</div>
+							<div class="shopping-cart__subtitle">Бетонна свічка</div>
+							<div class="shopping-cart-price__wrap">
+								<div class="shopping-cart-count counter-js">
+									<span class="shopping-cart-count__plus counter-plus"><img src="images/plus.svg" alt="plus"></span>
+									<input type="number" value="1">
+									<span class="shopping-cart-count__minus counter-minus"><img src="images/minus.svg" alt="minus"></span>
+								</div>
+								<div class="shopping-cart-price__item">
+									<span class="price-num" data-price="400">400</span> <span>₴</span>
+								</div>
+							</div>			
+						</div>
+					</div>
+					
+					<div class="shopping-cart__delete">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M19.5 5H4.5" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M14 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+						</svg>							
+					</div>
+				</div>
+
+				<div class="shopping-cart__item">
+					<div class="shopping-cart__left">
+						<div class="shopping-cart__thumb">
+							<img src="images/product-card-1.jpg" alt="product">
+						</div>
+						<div class="shopping-cart__info">
+							<div class="shopping-cart__title">Fresh Linen</div>
+							<div class="shopping-cart__subtitle">Бетонна свічка</div>
+							<div class="shopping-cart-price__wrap">
+								<div class="shopping-cart-count counter-js">
+									<span class="shopping-cart-count__plus counter-plus"><img src="images/plus.svg" alt="plus"></span>
+									<input type="number" value="1">
+									<span class="shopping-cart-count__minus counter-minus"><img src="images/minus.svg" alt="minus"></span>
+								</div>
+								<div class="shopping-cart-price__item">
+									<span class="price-num" data-price="400">400</span> <span>₴</span>
+								</div>
+							</div>			
+						</div>
+					</div>
+					
+					<div class="shopping-cart__delete">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M19.5 5H4.5" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M14 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+						</svg>							
+					</div>
+				</div>
+
+				<div class="shopping-cart__item">
+					<div class="shopping-cart__left">
+						<div class="shopping-cart__thumb">
+							<img src="images/product-card-1.jpg" alt="product">
+						</div>
+						<div class="shopping-cart__info">
+							<div class="shopping-cart__title">Fresh Linen</div>
+							<div class="shopping-cart__subtitle">Бетонна свічка</div>
+							<div class="shopping-cart-price__wrap">
+								<div class="shopping-cart-count counter-js">
+									<span class="shopping-cart-count__plus counter-plus"><img src="images/plus.svg" alt="plus"></span>
+									<input type="number" value="1">
+									<span class="shopping-cart-count__minus counter-minus"><img src="images/minus.svg" alt="minus"></span>
+								</div>
+								<div class="shopping-cart-price__item">
+									<span class="price-num" data-price="400">400</span> <span>₴</span>
+								</div>
+							</div>			
+						</div>
+					</div>
+					
+					<div class="shopping-cart__delete">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M19.5 5H4.5" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M14 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+						</svg>							
+					</div>
+				</div>
+
+				<div class="shopping-cart__item">
+					<div class="shopping-cart__left">
+						<div class="shopping-cart__thumb">
+							<img src="images/product-card-1.jpg" alt="product">
+						</div>
+						<div class="shopping-cart__info">
+							<div class="shopping-cart__title">Fresh Linen</div>
+							<div class="shopping-cart__subtitle">Бетонна свічка</div>
+							<div class="shopping-cart-price__wrap">
+								<div class="shopping-cart-count counter-js">
+									<span class="shopping-cart-count__plus counter-plus"><img src="images/plus.svg" alt="plus"></span>
+									<input type="number" value="1">
+									<span class="shopping-cart-count__minus counter-minus"><img src="images/minus.svg" alt="minus"></span>
+								</div>
+								<div class="shopping-cart-price__item">
+									<span class="price-num" data-price="400">700</span> <span>₴</span>
+								</div>
+							</div>			
+						</div>
+					</div>
+					
+					<div class="shopping-cart__delete">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M19.5 5H4.5" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M14 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+						</svg>							
+					</div>
+				</div>
+				
+
+				<div class="shopping-cart__total">До сплати: <span class="total-num">0</span> ₴</div>
+			</div>
+
+			<form>
+				<fieldset class="form-title">Оформлення замовлення</fieldset>
+				<input type="text" placeholder="Імʼя">
+				<input type="tel" placeholder="Номер телефону">
+				<!-- <button>
+					<span>Далі</span>
+					<svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M7.25 1L9.75 3.5M9.75 3.5L7.25 6M9.75 3.5L1 3.5" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+					</svg>
+				</button> -->
+				<a class="cart-button" href="ordering.html">
+					<span>Далі</span>
+					<svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M7.25 1L9.75 3.5M9.75 3.5L7.25 6M9.75 3.5L1 3.5" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+					</svg>
+				</a>
+			</form>
+	</div>
+
 <main class="site-main">
 
-	<div class="s-corporate">
+	<div class="s-shoppingcart">
 		<div class="container">
 
 			<a href="/" class="back-link">
@@ -133,8 +296,6 @@
 			</a>
 
 			<div class="shopping-cart__wrap">
-
-			
 
 				<div class="shopping-cart__item">
 					<div class="shopping-cart__left">
@@ -272,12 +433,18 @@
 				<fieldset class="form-title">Оформлення замовлення</fieldset>
 				<input type="text" placeholder="Імʼя">
 				<input type="tel" placeholder="Номер телефону">
-				<button>
+				<!-- <button>
 					<span>Далі</span>
 					<svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M7.25 1L9.75 3.5M9.75 3.5L7.25 6M9.75 3.5L1 3.5" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
 					</svg>
-				</button>
+				</button> -->
+				<a class="cart-button" href="ordering.html">
+					<span>Далі</span>
+					<svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M7.25 1L9.75 3.5M9.75 3.5L7.25 6M9.75 3.5L1 3.5" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+					</svg>
+				</a>
 			</form>
 
 

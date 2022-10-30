@@ -32,7 +32,7 @@
 				<a href="index.html" class="header-logo">
 					<img src="images/logo.svg" alt="Natural with love">
 				</a>
-				<a href="shopping-cart.html" class="header-cart">
+				<a href="#" class="header-cart cart-js">
 					<img src="images/cart.svg" alt="Корзина">
 					<div class="header-cart__value">1</div>
 				</a>
@@ -44,7 +44,7 @@
 	<div class="menu-wrap">
 		<div class="menu-header">
 			<div class="menu-header__row">
-				<a href="#" class="menu-logo">
+				<a href="index.html" class="menu-logo">
 					<img src="images/logo.svg" alt="Natural with love">
 				</a>
 				<div class="menu-close">
@@ -60,7 +60,7 @@
 					<li class="is-active"><a href="product-card-2.html">Формові свічки</a></li>
 					<li><a href="product-card.html">Подарункові свічки</a></li>
 					<li><a href="#">Limited Edition</a></li>
-					<li><a href="#">Оптові та корпоративні замовлення</a></li>
+					<li class="menu-nav__corporate"><a href="corporate-orders.html">Оптові та корпоративні замовлення</a></li>
 				</ul>
 
 				<div class="menu-contacts">
@@ -119,8 +119,171 @@
 
 		</div>
 	</div>
+	
 
 	<div class="menu-overlay"></div>
+
+
+
+	<div class="s-shopping-cart shopping-cart__nav">
+
+			<a href="#" class="next-link">
+				<span>Закрити</span>
+				<img src="images/next-arrow.svg" alt="Повернутись назад">
+			</a>
+
+			<div class="shopping-cart__wrap">
+
+				<div class="shopping-cart__item">
+					<div class="shopping-cart__left">
+						<div class="shopping-cart__thumb">
+							<img src="images/product-card-1.jpg" alt="product">
+						</div>
+						<div class="shopping-cart__info">
+							<div class="shopping-cart__title">Fresh Linen</div>
+							<div class="shopping-cart__subtitle">Бетонна свічка</div>
+							<div class="shopping-cart-price__wrap">
+								<div class="shopping-cart-count counter-js">
+									<span class="shopping-cart-count__plus counter-plus"><img src="images/plus.svg" alt="plus"></span>
+									<input type="number" value="1">
+									<span class="shopping-cart-count__minus counter-minus"><img src="images/minus.svg" alt="minus"></span>
+								</div>
+								<div class="shopping-cart-price__item">
+									<span class="price-num" data-price="400">400</span> <span>₴</span>
+								</div>
+							</div>			
+						</div>
+					</div>
+					
+					<div class="shopping-cart__delete">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M19.5 5H4.5" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M14 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+						</svg>							
+					</div>
+				</div>
+
+				<div class="shopping-cart__item">
+					<div class="shopping-cart__left">
+						<div class="shopping-cart__thumb">
+							<img src="images/product-card-1.jpg" alt="product">
+						</div>
+						<div class="shopping-cart__info">
+							<div class="shopping-cart__title">Fresh Linen</div>
+							<div class="shopping-cart__subtitle">Бетонна свічка</div>
+							<div class="shopping-cart-price__wrap">
+								<div class="shopping-cart-count counter-js">
+									<span class="shopping-cart-count__plus counter-plus"><img src="images/plus.svg" alt="plus"></span>
+									<input type="number" value="1">
+									<span class="shopping-cart-count__minus counter-minus"><img src="images/minus.svg" alt="minus"></span>
+								</div>
+								<div class="shopping-cart-price__item">
+									<span class="price-num" data-price="400">400</span> <span>₴</span>
+								</div>
+							</div>			
+						</div>
+					</div>
+					
+					<div class="shopping-cart__delete">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M19.5 5H4.5" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M14 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+						</svg>							
+					</div>
+				</div>
+
+				<div class="shopping-cart__item">
+					<div class="shopping-cart__left">
+						<div class="shopping-cart__thumb">
+							<img src="images/product-card-1.jpg" alt="product">
+						</div>
+						<div class="shopping-cart__info">
+							<div class="shopping-cart__title">Fresh Linen</div>
+							<div class="shopping-cart__subtitle">Бетонна свічка</div>
+							<div class="shopping-cart-price__wrap">
+								<div class="shopping-cart-count counter-js">
+									<span class="shopping-cart-count__plus counter-plus"><img src="images/plus.svg" alt="plus"></span>
+									<input type="number" value="1">
+									<span class="shopping-cart-count__minus counter-minus"><img src="images/minus.svg" alt="minus"></span>
+								</div>
+								<div class="shopping-cart-price__item">
+									<span class="price-num" data-price="400">400</span> <span>₴</span>
+								</div>
+							</div>			
+						</div>
+					</div>
+					
+					<div class="shopping-cart__delete">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M19.5 5H4.5" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M14 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+						</svg>							
+					</div>
+				</div>
+
+				<div class="shopping-cart__item">
+					<div class="shopping-cart__left">
+						<div class="shopping-cart__thumb">
+							<img src="images/product-card-1.jpg" alt="product">
+						</div>
+						<div class="shopping-cart__info">
+							<div class="shopping-cart__title">Fresh Linen</div>
+							<div class="shopping-cart__subtitle">Бетонна свічка</div>
+							<div class="shopping-cart-price__wrap">
+								<div class="shopping-cart-count counter-js">
+									<span class="shopping-cart-count__plus counter-plus"><img src="images/plus.svg" alt="plus"></span>
+									<input type="number" value="1">
+									<span class="shopping-cart-count__minus counter-minus"><img src="images/minus.svg" alt="minus"></span>
+								</div>
+								<div class="shopping-cart-price__item">
+									<span class="price-num" data-price="400">700</span> <span>₴</span>
+								</div>
+							</div>			
+						</div>
+					</div>
+					
+					<div class="shopping-cart__delete">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M19.5 5H4.5" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z" stroke="#C1C1C1" stroke-width="1.2"/>
+							<path d="M14 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+							<path d="M10 12V17" stroke="#C1C1C1" stroke-width="1.2" stroke-linecap="round"/>
+						</svg>							
+					</div>
+				</div>
+				
+
+				<div class="shopping-cart__total">До сплати: <span class="total-num">0</span> ₴</div>
+			</div>
+
+			<form>
+				<fieldset class="form-title">Оформлення замовлення</fieldset>
+				<input type="text" placeholder="Імʼя">
+				<input type="tel" placeholder="Номер телефону">
+				<!-- <button>
+					<span>Далі</span>
+					<svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M7.25 1L9.75 3.5M9.75 3.5L7.25 6M9.75 3.5L1 3.5" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+					</svg>
+				</button> -->
+				<a class="cart-button" href="ordering.html">
+					<span>Далі</span>
+					<svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M7.25 1L9.75 3.5M9.75 3.5L7.25 6M9.75 3.5L1 3.5" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+					</svg>
+				</a>
+			</form>
+	</div>
 
 <main class="site-main">
 
@@ -154,331 +317,248 @@
 
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="swiper-slide">
-						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
-
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="swiper-slide">
-						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
-
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="swiper-slide">
-						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
-
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
 
 				</div>
 
-				<div class="swiper-pagination product-pagination"></div>
+				
+				<div class="product-slider__bottom_3">
+	<div class="swiper-pagination product-pagination"></div>
+	<a href="product-catalog.html" class="product-more">
+		<img src="images/hand-right.png" alt="more">
+	</a>
+</div>
 
 				<div class="swiper-button-prev product-button-prev"></div>
 				<div class="swiper-button-next product-button-next"></div>
@@ -498,331 +578,247 @@
 
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="swiper-slide">
-						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
-
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="swiper-slide">
-						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
-
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="swiper-slide">
-						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
-
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
 
 				</div>
 
-				<div class="swiper-pagination product-pagination"></div>
+				<div class="product-slider__bottom_3">
+	<div class="swiper-pagination product-pagination"></div>
+	<a href="product-catalog.html" class="product-more">
+		<img src="images/hand-right.png" alt="more">
+	</a>
+</div>
 
 				<div class="swiper-button-prev product-button-prev"></div>
 				<div class="swiper-button-next product-button-next"></div>
@@ -845,331 +841,247 @@
 
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
-
 					<div class="swiper-slide">
 						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
+	<div class="product-header">
+		<a href="product-card.html" class="product-thumb">
+			<img src="images/product-1.jpg" alt="Product">
+		</a>
+		<a href="#" class="product-gocart cart-js">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
+					stroke="#E19262" stroke-width="0.8" />
+				<path
+					d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
+					stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
+			</svg>
+		</a>
+	</div>
 
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="swiper-slide">
-						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
-
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="swiper-slide">
-						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
-
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="swiper-slide">
-						<div class="product-item">
-							<div class="product-header">
-								<a href="product-card.html" class="product-thumb">
-									<img src="images/product-1.jpg" alt="Product">
-								</a>
-								<a href="shopping-cart.html" class="product-gocart">
-									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.23863 5.89782C3.29206 5.20316 3.87132 4.66675 4.56803 4.66675H11.4319C12.1287 4.66675 12.7079 5.20316 12.7614 5.89782L13.002 9.02663C13.1807 11.3498 11.3439 13.3334 9.01381 13.3334H6.98617C4.65613 13.3334 2.81924 11.3498 2.99795 9.02663L3.23863 5.89782Z"
-											stroke="#E19262" stroke-width="0.8" />
-										<path
-											d="M10 7.33333V4C10 2.89543 9.10457 2 8 2V2C6.89543 2 6 2.89543 6 4V7.33333"
-											stroke="#E19262" stroke-width="0.8" stroke-linecap="round" />
-									</svg>
-								</a>
-							</div>
-
-							<div class="product-body">
-								<a href="product-card.html" class="product-title">Fresh Linen</a>
-								<div class="product-cat">Бетонна свічка</div>
-								<div class="product-price">400 грн</div>
-							</div>
-						</div>
+	<div class="product-body">
+		<a href="product-card.html" class="product-title">Fresh Linen</a>
+		<div class="product-cat">Бетонна свічка</div>
+		<div class="product-price">400 грн</div>
+	</div>
+</div>
 					</div>
 
 				</div>
 
-				<div class="swiper-pagination product-pagination"></div>
+				<div class="product-slider__bottom_3">
+	<div class="swiper-pagination product-pagination"></div>
+	<a href="product-catalog.html" class="product-more">
+		<img src="images/hand-right.png" alt="more">
+	</a>
+</div>
 
 				<div class="swiper-button-prev product-button-prev"></div>
 				<div class="swiper-button-next product-button-next"></div>
@@ -1220,7 +1132,12 @@
 					</div>
 				</div>
 
-				<div class="swiper-pagination reviews-pagination"></div>
+				<div class="product-slider__bottom_3">
+	<div class="swiper-pagination product-pagination"></div>
+	<a href="product-catalog.html" class="product-more">
+		<img src="images/hand-right.png" alt="more">
+	</a>
+</div>
 
 				
 				<div class="swiper-button-prev reviews-button-prev"></div>
