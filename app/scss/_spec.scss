@@ -162,6 +162,9 @@ textarea {
 	margin-bottom: 20px;
 	font-weight: 500;
 	font-size: 14px;
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 	&::placeholder {
 		color: rgba(107, 78, 61, 0.3);
 		font-family: $font;
