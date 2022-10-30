@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	// Menu START
 	var menuWrap = $('.menu-wrap');
 	var menuOverlay = $('.menu-overlay');
+	var shoppingCartNav = $('.shopping-cart__nav');
+
 	$('.hamburger').on('click', function() {
 		menuWrap.addClass('is-active');
 		menuOverlay.fadeIn('slow');
@@ -12,10 +14,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		menuOverlay.fadeOut('slow');
 	});
 	$(document).mouseup( function(e){
-		if ( !menuWrap.is(e.target) && menuWrap.has(e.target).length === 0 ) { 
+		if (!menuWrap.is(e.target) && menuWrap.has(e.target).length === 0 && !shoppingCartNav.is(e.target) && shoppingCartNav.has(e.target).length === 0) { 
 			menuWrap.removeClass('is-active');
+			shoppingCartNav.removeClass('is-active');
 			menuOverlay.fadeOut('slow');
 		}
+	});
+
+	
+	$('.cart-js').on('click', function(e) {
+		e.preventDefault();
+		shoppingCartNav.addClass('is-active');
+		menuOverlay.fadeIn('slow');
+	});
+	$('.shopping-cart__nav .next-link').on('click', function(e) {
+		e.preventDefault();
+		shoppingCartNav.removeClass('is-active');
+		menuOverlay.fadeOut('slow');
 	});
 	// Menu END
 
